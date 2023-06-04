@@ -31,7 +31,7 @@ public class Program {
                 line = br.readLine();
             }
             System.out.print("Enter salary: ");
-            double salary = sc.nextDouble();git commit -m "first commit"
+            double salary = sc.nextDouble();
 
             List<String> emails = list.stream()
                     .filter(x -> x.getSalary()> salary)
